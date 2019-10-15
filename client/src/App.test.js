@@ -11,3 +11,8 @@ test("Render the app", () =>{
   wrapper.debug()
 })
 
+// test("show text", () => {
+//   const wrapper = rtl.render(<App />)
+//   const element = wrapper.getByText(/meet our players/i) 
+//   expect(element).toBeVisible()
+// });

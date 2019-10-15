@@ -41,7 +41,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <h1>Let's code!</h1>
+        <h1>Meet our players</h1>
         <PlayersList data={this.state.players} />
       </div>
     );
